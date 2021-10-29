@@ -8,7 +8,7 @@ phases:
       - pip install --upgrade awscli
       - python -m unittest discover tests
 artifacts:
-  type:zip
+  type: zip
   files:
     -template.yml
     -outputtemplate.yml
